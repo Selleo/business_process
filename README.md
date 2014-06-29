@@ -1,5 +1,6 @@
-# github_on_rails
+# BusinessProcess
 
+ServiceObject'a'like pattern
 
 #### Setup 
 
