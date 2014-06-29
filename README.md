@@ -50,3 +50,8 @@ service.result # => 30
 service.success? # => true
 ```
 
+#### Running specs
+
+```
+rspec spec
+```
