@@ -18,7 +18,6 @@ then `bundle`
 # Define business process
 
 class DoSomething < BusinessProcess::Base
-
   # Specify requirements
   needs :some_method
   needs :some_other_method
