@@ -1,0 +1,3 @@
+module BusinessProcess
+  VERSION = "0.0.1"
+end
