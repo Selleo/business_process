@@ -62,7 +62,7 @@ module BusinessProcess
       _result = nil
       steps.map(&:to_s).each do |step_name|
         _result = process_step(step_name)
-        return if @success == false
+        return _result if @success == false
       end
       _result
     end
