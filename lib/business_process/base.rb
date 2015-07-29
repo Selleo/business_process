@@ -72,7 +72,7 @@ module BusinessProcess
         send(step_name)
       else
         begin
-          step_class = step_name.classify.constantize
+          step_class = step_name.camelize.constantize
           step_class.call(self).result
         rescue NameError => exc
           if step_name.starts_with?('return_') and respond_to?(step_name.sub('return_', ''), true)
