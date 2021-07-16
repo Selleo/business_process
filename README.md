@@ -1,3 +1,5 @@
+⚠️ BusinessProcess gem is no longer supported, as it has been replaced by [rails-patterns](https://github.com/Selleo/pattern) gem, which includes more light-weight version of Service Object pattern ⚠️ 
+
 # BusinessProcess
 
 ServiceObject'a'like pattern
